@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1665067404 "q1.tex" "q1.pdf" "q1" 1665067404
+["pdflatex"] 1665237067 "q1.tex" "q1.pdf" "q1" 1665237067
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1650183167 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1650183167 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -24,11 +24,11 @@
   "/usr/share/texmf-dist/tex/latex/base/size10.clo" 1650183167 8448 96f18c76bf608a36ee6fbf021ac1dd32 ""
   "/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1650183167 31644 9b75b7ffdb38fbd7bb4502cd6b086a3c ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1664792891 334215 ad2feb41952e3720830b65f83a01c5b0 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1664792877 2927661 a16ef1e9c0397dd12f330f69368f8580 ""
-  "q1.aux" 1665067217 482 73f6ae1123e65dbd0106b37c4b40a402 "pdflatex"
-  "q1.tex" 1665067404 1371 3554a27e6260238c4f8e530f31455da0 ""
-  "q1_6.txt" 1665065627 515 7973c5e29b7cf04fd97596fcca4d355b ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1651365269 4278762 af3ac1370db81a450c1118eabf1fe718 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1651365259 2927655 f22ec98217f16943f46a4f1fb3e3434c ""
+  "q1.aux" 1665237067 482 d1066eb64487ef0e12d9204fa87f38ea "pdflatex"
+  "q1.tex" 1665237066 2103 8fe960acc205635ccda75a29f024ab55 ""
+  "q1_6.txt" 1665235372 515 7973c5e29b7cf04fd97596fcca4d355b ""
   (generated)
   "q1.aux"
   "q1.log"

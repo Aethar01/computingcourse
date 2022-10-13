@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.10.3)  6 OCT 2022 15:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.1)  8 OCT 2022 14:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -54,40 +54,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 28.
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
+
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 35.
+(Font)              <7> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 35.
- (./q1_6.txt)
+(Font)              <5> on input line 36.
+(./q1_6.txt) [1
 
-./q1.tex:41: LaTeX Error: \begin{center} on input line 37 ended by \end{centre}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41        \end{centre}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./q1.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./q1.aux) ) 
 Here is how much of TeX's memory you used:
- 456 strings out of 478238
- 8399 string characters out of 5850456
- 304694 words of memory out of 5000000
- 18764 multiletter control sequences out of 15000+600000
+ 455 strings out of 478238
+ 8390 string characters out of 5850457
+ 306694 words of memory out of 5000000
+ 18763 multiletter control sequences out of 15000+600000
  472899 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,6n,38p,255b,191s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on q1.pdf (1 page, 83623 bytes).
+Output written on q1.pdf (2 pages, 85251 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

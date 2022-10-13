@@ -27,10 +27,25 @@
 \begin{document}
     \maketitle
     \section{q1}
-        The answers are m and 3
+        The answers are m and 3 since the 4th letter of the 3rd to last element of the list b is m and the first entry in a is 3.
     \section{q2}
        The while loop multiplies fac by i returning it to itself then prints fac and i then increments
-       i by one until i reaches 10.
+       i by one until i reaches 10. Essentially printing a pattern where the right number is multiplied by the 
+       number on the next row on the left to find the next number on the right side. Hence \\
+       \begin{center}
+           \begin{tabular}{ |c|c| }
+                1 & 1 \\
+                2 & 2 \\
+                3 & 6 \\
+                4 & 24 \\
+                5 & 120 \\
+                6 & 720 \\
+                7 & 5040 \\
+                8 & 40320 \\
+                9 & 362880
+           \end{tabular}
+       \end{center}
+       Since i reaches 10 before it is multiplied by fac the while loop ends and a row with i as 10 does not get printed.
     \section{q5}
        $y^2$ and x converge, however, due to imprecise float calculations, python does not see them as equal, therefore the condition for the while loop never arrises causing an infinite loop.
     \section{q6}
@@ -38,7 +53,7 @@
            \begin{tabular}{ |c|c| }
                \input{./q1_6.txt}
            \end{tabular}
-       \end{centre}
+       \end{center}
     \section{q7}
         when truncating each step in a() we get a result of 0.01 \\ however when using b() and truncating each step we get a value of $5.00\times10^{-3}$, which is more accurate since the result from a() has a lower resolution.
         
