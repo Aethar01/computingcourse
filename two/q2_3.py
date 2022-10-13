@@ -16,5 +16,6 @@ def g(x):
 x = np.arange(0, 4*pi, 0.01)
 y = [g(i) for i in x]
 plt.plot(x, y)
-plt.xticks(ticks=[pi, 2 * pi, 3 * pi, 4 * pi], labels=['$\pi$', '2$\pi$', '3$\pi$', '4$\pi$'])
-plt.savefig('test.png', dpi=300)
+plt.xlabel('x')
+plt.xticks(ticks=[0, pi, 2 * pi, 3 * pi, 4 * pi], labels=['0', '$\pi$', '2$\pi$', '3$\pi$', '4$\pi$'])
+plt.savefig('q1.png', dpi=300)
