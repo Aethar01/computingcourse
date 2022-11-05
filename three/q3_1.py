@@ -1,9 +1,13 @@
+from numpy import linspace
 from numpy import arange
+from scipy.optimize import curve_fit
 from numpy import array
 import matplotlib.pyplot as plt
 from q3_4 import discrepancy
 from minimise import gmin
-from numpy import exp
+from numpy import sum as sm
+import statistics
+# from numpy import exp
 
 f = open('data1.txt', 'r')
 ea = []
@@ -28,15 +32,16 @@ def theory(e, w):
 
 w = 111.8916236
 
+# plt.figure(figsize=(3, 3))
 plt.plot(ea, na)
 plt.errorbar(ea, na, dn)
 plt.xlabel('E')
 plt.ylabel('n(E)')
-plt.savefig('q3_1.png')
+plt.savefig('q3_1.png', dpi=300)
 
 
 plt.plot(ea, theory(ea, w))
-plt.savefig('q3_1th.png')
+plt.savefig('q3_1th.png', dpi=300)
 global r
 global minimum
 ranger = arange(80, 120, 0.01)
@@ -49,12 +54,35 @@ for i in ranger:
 print('minimum discrepancy =', min(minimum))
 print('which is when w =', ranger[minimum.index(min(minimum))])
 
-
-def f(x):
-    return exp(x) + 1 / x
-
-
-print(gmin(f, 0, 5))
+# w = 112.7052
+# r = [(na - theory(ea, w))]
+# print(discrepancy(r, dn))
 
 
+# def f(x):
+#     return exp(x) + 1 / x
+#
+#
+# print(gmin(f, 0, 50, tol=3.0e-8))
 
+
+def discrep(w):
+    r = [(na - theory(ea, w))]
+    return discrepancy(r, dn)
+
+
+print(gmin(discrep, 80, 120, tol=3.0e-8))
+
+plt.clf()
+
+plt.plot(ea, na)
+plt.errorbar(ea, na, dn)
+plt.xlabel('E')
+plt.ylabel('n(E)')
+plt.plot(ea, theory(ea, gmin(discrep, 80, 120, tol=3.0e-8)[0]))
+plt.savefig('q3_7.png', dpi=300)
+
+x = linspace(start=ea[0], stop=ea[-1], num=len(theory(ea, gmin(discrep, 80, 120, tol=3.0e-8)[0])))
+popt, pcov = curve_fit(theory, x, theory(ea, gmin(discrep, 80, 120, tol=3.0e-8)[0]), sigma=dn, absolute_sigma=True)
+print(popt)
+print(pcov)
