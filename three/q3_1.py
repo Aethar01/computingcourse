@@ -49,10 +49,6 @@ for i in ranger:
 print('minimum discrepancy =', min(minimum))
 print('which is when w =', ranger[minimum.index(min(minimum))])
 
-w = 112.7052
-r = [(na - theory(ea, w))]
-print(discrepancy(r, dn))
-
 
 def f(x):
     return exp(x) + 1 / x
