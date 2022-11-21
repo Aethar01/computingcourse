@@ -5,7 +5,7 @@ def randbin(totalrandnumbers, numofbins):
     m = zeros(numofbins, int)
     for i in range(totalrandnumbers):
         n = random.randint(numofbins)
-        m[n] = m[n]+1
+        m[n] = m[n] + 1
     return m
 
 
@@ -13,8 +13,16 @@ def randbin1(totalrandomnumbers, totalbins, average=1):
     m = zeros(totalbins, int)
     for i in range(totalrandomnumbers):
         n = sum([random.random() for x in range(average)]) / average
-        k = int(totalbins*n)
+        k = int(totalbins * n)
         m[k] = m[k] + 1
+    return m
+
+
+def normalgen(totalrandomnumbers):
+    m: list = []
+    for i in range(totalrandomnumbers):
+        k = random.normal()
+        m.append(k)
     return m
 
 

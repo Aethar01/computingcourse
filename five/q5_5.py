@@ -1,4 +1,4 @@
-from q5_1 import randbin1
+from q5_4 import randbin1
 import matplotlib.pyplot as plt
 
 
