@@ -8,3 +8,17 @@ A to B
 10x10 0.49540056465742344
 15x15 0.49782997170379595
 20x20 0.49875299630324765
+
+extrapolate to N = inf
+A to C 0.6355
+A to B 0.5000
+
+speed up
+at a = 1
+A to C
+20x20 old algo 1295 0.6364830719829574
+20x20 new algo 114 0.633583420641185
+
+optimal choice
+a = 1.70006
+results in A to C 20x20 of 0.6362169192614182 from 5 steps

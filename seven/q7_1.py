@@ -14,12 +14,12 @@ def sweep(v, p, q, r, s):
 
 
 if __name__ == '__main__':
-    N: int = 100
+    N: int = 22
     v: list = zeros((N, N), float)
     p: int = int((len(v) - 1) / 2)
     q: int = int((len(v) - 1) / 2)
     r: int = p + 1
-    s: int = p + 1
+    s: int = p + 0
     dv: float = 1.0e10
     lastdv = 0
     count = 0
@@ -31,5 +31,5 @@ if __name__ == '__main__':
     print(count, dv)
     plt.figure(figsize=(8, 8))
     plt.contour(v)
-    plt.savefig(f'./q7_1_{N-2}x{N-2}_AtoB.png')
+#    plt.savefig(f'./q7_1_{N-2}x{N-2}_AtoB.png')
 
