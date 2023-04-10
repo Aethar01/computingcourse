@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.1)  24 OCT 2022 13:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.9)  10 APR 2023 04:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **q3.tex
 (./q3.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-04-10> (/usr/share/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -19,16 +19,16 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 ) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 ) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 ) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
@@ -36,36 +36,36 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
  (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen139
-\Gin@req@width=\dimen140
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
 ) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count193
-\lst@gtempboxa=\box50
+\lst@gtempboxa=\box51
 \lst@token=\toks17
 \lst@length=\count194
-\lst@currlwidth=\dimen141
+\lst@currlwidth=\dimen143
 \lst@column=\count195
 \lst@pos=\count196
-\lst@lostspace=\dimen142
-\lst@width=\dimen143
+\lst@lostspace=\dimen144
+\lst@width=\dimen145
 \lst@newlines=\count197
 \lst@lineno=\count198
-\lst@maxwidth=\dimen144
+\lst@maxwidth=\dimen146
  (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 \c@lstnumber=\count199
 \lst@skipnumbers=\count266
-\lst@framebox=\box51
+\lst@framebox=\box52
 ) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
+File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
  (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count267
-\l__pdf_internal_box=\box52
+\l__pdf_internal_box=\box53
 )
 
 LaTeX Warning: Unused global option(s):
@@ -91,13 +91,13 @@ LaTeX Font Info:    ... okay on input line 28.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count268
-\scratchdimen=\dimen145
-\scratchbox=\box53
+\scratchdimen=\dimen147
+\scratchbox=\box54
 \nofMPsegments=\count269
 \nofMParguments=\count270
 \everyMPshowfont=\toks18
 \MPscratchCnt=\count271
-\MPscratchDim=\dimen146
+\MPscratchDim=\dimen148
 \MPnumerator=\count272
 \makeMPintoPDFobject=\count273
 \everyMPtoPDFconversion=\toks19
@@ -141,13 +141,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./q3_1.png>] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
+File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (./q3_4.py)
 Overfull \hbox (9.0036pt too wide) in paragraph at lines 7--47
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[2 <./q3_1th.png>] (./q3_6.py)
+[2{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./q3_1th.png>] (./q3_6.py)
 <./q3_7.png, id=24, 462.528pt x 346.896pt>
 File: ./q3_7.png Graphic file (type png)
 <use ./q3_7.png>
@@ -164,24 +164,23 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 62--66
  []
 
 [3] (./q3_8.py
-consecutive:
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 6.
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+ (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
 ) [4 <./q3_7.png>] (./q3.aux) ) 
 Here is how much of TeX's memory you used:
- 3175 strings out of 478238
- 45685 string characters out of 5850457
- 530171 words of memory out of 5000000
- 21416 multiletter control sequences out of 15000+600000
- 473888 words of font info for 43 fonts, out of 8000000 for 9000
+ 3177 strings out of 476025
+ 45707 string characters out of 5796533
+ 1861388 words of memory out of 5000000
+ 23631 multiletter control sequences out of 15000+600000
+ 516916 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,62p,202b,1365s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on q3.pdf (4 pages, 355694 bytes).
+ 57i,6n,62p,429b,1367s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on q3.pdf (4 pages, 355595 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
