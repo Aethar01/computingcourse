@@ -1,5 +1,6 @@
-!**/*.tex
-!**/*.py
-!**/*.txt
-!**/*.png
-
+**/*.fls
+**/*.log
+**/*.aux
+**/__pycache__
+**/*.fdb_latexmk
+**/*.synctex.gz
