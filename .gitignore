@@ -1,6 +1,6 @@
 **/*.fls
 **/*.log
 **/*.aux
-**/__pycache__
+**/__pycache__/
 **/*.fdb_latexmk
 **/*.synctex.gz
