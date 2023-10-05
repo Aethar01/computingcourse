@@ -1,0 +1,65 @@
+\documentclass[a4paper,english]{article}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{multirow}
+
+%% Use utf-8 encoding for foreign characters
+%%\usepackage[T1]{fontenc}
+%%\usepackage[utf8]{inputenc}
+%%\usepackage{babel}
+%%
+%%%% Vector based fonts instead of bitmaps
+%%\usepackage{lmodern}
+%%
+%%%% Useful
+%%%\usepackage{fullpage} % Smaller margins
+%%\usepackage{enumerate}
+%%
+%%%% Theorem
+%%\usepackage{amsthm}
+%%
+%%%% More math
+%%\usepackage{amsmath}
+%%\usepackage{amssymb}
+\lstset{
+  breaklines=true,
+  postbreak=\mbox{{$\hookrightarrow$}\space},
+}
+
+%% Document Header
+\title{Section1}
+\author{Elliott Ashby}
+\date{\today}
+
+\begin{document}
+    \maketitle
+    \section{q1}
+    The while loop multiplies fac by i returning it to itself then prints fac and i then increments
+    i by one until i reaches 10. Essentially printing a pattern where the right number is multiplied by the 
+    number on the next row on the left to find the next number on the right side. Hence \\
+    \begin{center}
+        \begin{tabular}{ |c|c| }
+            1 & 1 \\
+            2 & 2 \\
+            3 & 6 \\
+            4 & 24 \\
+            5 & 120 \\
+            6 & 720 \\
+            7 & 5040 \\
+            8 & 40320 \\
+            9 & 362880
+        \end{tabular}
+    \end{center}
+    Since i reaches 10 before it is multiplied by fac the while loop ends and a row with i as 10 does not get printed.
+    \section{q2}
+    \lstinputlisting[language=Python]{./1_2.py}
+    Here we see a some code the loops over a print statement mutating the variable i each time, starting from 1 and going to 10.
+    The print statement print the value, it's square and it's cube.
+    \section{q3}
+    The answers are m and 3 since the 4th letter of the 3rd to last element of the list b is m and the first entry in a is 3.
+    \section{q4} 
+    
+    \section{q5}
+    
+\end{document}
