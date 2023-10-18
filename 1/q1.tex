@@ -62,20 +62,30 @@
     $1e^{3}$ will take a short time but is less accurate than $1e^{26}$, but $1e^{26}$ takes a long time. $1e^{7}$ is accurate enought while being still relatively fast.
     \section{q5}
     \lstinputlisting[language=Python]{./1_5.py}
+    Here we simply create a list of numbers from 0 to $4\pi$ in steps of 0.01 and calculate g(x) for each of them.
+    We then plot the list of x values against the list of g(x) values adding axis labels and tick names.
+    \begin{center}
+        \includegraphics[scale=0.8]{./1_5.png}
+    \end{center}
     \section{q6}
     \lstinputlisting[language=Python]{./1_6.py}
-    \includegraphics[scale=0.8]{./q1_6.png}
+    We start by defining our constants, samplesm range and number of bins, we the create the binned data by calling the sort to bins function and the gen data function inside that.
+    We then plot the data as a bar graph with the x axis being the bins and the y axis being the number of samples in each bin.
+    \begin{center}
+        \includegraphics[scale=0.8]{./1_6.png}
+    \end{center}
     \section{q7}
     \lstinputlisting[language=Python]{./1_7.py}
-    \begin{code}
-        4.53988% are outside of the range -2 < x < 2
-    \end{code}
+    Therefore:
+    \begin{center}
+        $4.53988$\% are outside of the range $-2 < x < 2$
+    \end{center}
     With obviously some variation in percentage calcuated, however to minimise this the code is ran "repeats" number of times and an average is found.
     \section{q8}
     \lstinputlisting[language=Python]{./1_8.py}
     Here we change the code given to us from a set number of runs "n" to a stopping condition, in this case I chose $1e^{-7}$ since it resulted in a reasonable amount of precision.
     Here we output the result as:
-    \begin{code}
+    \begin{center}
         1051.2492201029809
-    \end{code}
+    \end{center}
 \end{document}

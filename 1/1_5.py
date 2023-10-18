@@ -11,4 +11,4 @@ if __name__ == "__main__":
     plt.xlabel('x')
     plt.ylabel('g(x)')
     plt.xticks(ticks=[0, pi, 2 * pi, 3 * pi, 4 * pi], labels=['0', '$\pi$', '2$\pi$', '3$\pi$', '4$\pi$'])
-    plt.savefig('q1_5.png', dpi=300)
+    plt.savefig('1_5.png', dpi=300)
