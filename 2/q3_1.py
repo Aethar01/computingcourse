@@ -3,8 +3,10 @@ from numpy import arange
 from scipy.optimize import curve_fit
 from numpy import array
 import matplotlib.pyplot as plt
+from q3_4 import discrepancy
 from minimise import gmin
-four = __import__('2_4')
+from numpy import sum as sm
+import statistics
 
 
 def theory(e, w):
@@ -14,7 +16,7 @@ def theory(e, w):
 
 def discrep(w):
     r = [(na - theory(ea, w))]
-    return four.discrepancy(r, dn)
+    return discrepancy(r, dn)
 
 
 f = open('data1.txt', 'r')
@@ -41,11 +43,11 @@ plt.plot(ea, na)
 plt.errorbar(ea, na, dn)
 plt.xlabel('E')
 plt.ylabel('n(E)')
-plt.savefig('2_1.png', dpi=300)
+plt.savefig('q3_1.png', dpi=300)
 
 
 plt.plot(ea, theory(ea, w))
-plt.savefig('2_3th.png', dpi=300)
+plt.savefig('q3_1th.png', dpi=300)
 global r
 global minimum
 ranger = arange(80, 120, 0.01)
@@ -53,14 +55,14 @@ minimum = []
 for i in ranger:
     w = i
     r = [(na - theory(ea, w))]
-    minimum.append(four.discrepancy(r, dn))
+    minimum.append(discrepancy(r, dn))
 
 print('minimum discrepancy =', min(minimum))
 print('which is when w =', ranger[minimum.index(min(minimum))])
 
 # w = 112.7052
 # r = [(na - theory(ea, w))]
-# print(four.discrepancy(r, dn))
+# print(discrepancy(r, dn))
 
 
 # def f(x):
@@ -71,6 +73,7 @@ print('which is when w =', ranger[minimum.index(min(minimum))])
 
 
 print(gmin(discrep, 80, 120, tol=3.0e-8))
+
 
 plt.clf()
 
