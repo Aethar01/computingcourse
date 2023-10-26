@@ -5,8 +5,6 @@ from numpy import array
 import matplotlib.pyplot as plt
 from q3_4 import discrepancy
 from minimise import gmin
-from numpy import sum as sm
-import statistics
 
 
 def theory(e, w):
@@ -43,11 +41,11 @@ plt.plot(ea, na)
 plt.errorbar(ea, na, dn)
 plt.xlabel('E')
 plt.ylabel('n(E)')
-plt.savefig('q3_1.png', dpi=300)
+plt.savefig('2_1.png', dpi=300)
 
 
 plt.plot(ea, theory(ea, w))
-plt.savefig('q3_1th.png', dpi=300)
+plt.savefig('2_3th.png', dpi=300)
 global r
 global minimum
 ranger = arange(80, 120, 0.01)
@@ -73,7 +71,6 @@ print('which is when w =', ranger[minimum.index(min(minimum))])
 
 
 print(gmin(discrep, 80, 120, tol=3.0e-8))
-
 
 plt.clf()
 
