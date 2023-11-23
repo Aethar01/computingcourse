@@ -5,12 +5,11 @@ from matplotlib import pyplot as plt
 from tabulate import tabulate
 
 
-def period2(phi):
+def period2(phi, a):
     return 1 / (1 - (sin(a / 2) ** 2) * (sin(phi)) ** 2) ** 0.5
 
 
 if __name__ == '__main__':
-    global a
     alphas = np.linspace(0, 4 * pi, 1000)
     q = []
     for a in alphas:
