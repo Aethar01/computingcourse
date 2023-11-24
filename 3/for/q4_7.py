@@ -10,6 +10,7 @@ def period2(phi, a):
 
 
 if __name__ == '__main__':
+    global a # required since trap1() uses a single variable whereas period2() uses two, a and phi
     alphas = np.linspace(0, 4 * pi, 1000)
     q = []
     for a in alphas:
